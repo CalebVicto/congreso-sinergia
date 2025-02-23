@@ -28,7 +28,7 @@ function initPage() {
 	hasta.setHours(19)       // Hora 19 (7 PM)
 	hasta.setDate(16)        // Día 16
 	hasta.setMonth(7)        // Mes 7 (AGOSTO)
-	hasta.setFullYear(2030)  // Año 2021 (Le cambie el año para que no se acabe el tiempo)
+	// hasta.setFullYear(2021)  // Año 2021 (Le cambie el año para que no se acabe el tiempo)
 	var res = getTime(hasta)
 	if (res.time >= 0) {
 		dias.innerHTML = res.days
